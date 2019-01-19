@@ -1,0 +1,239 @@
+body
+{
+	background-color: #f2f2f2;
+	color: #000000;
+	margin: 0;
+	font-family: Arial;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #000000;
+	text-align: center;
+	border-bottom: 1px solid #3f3f3f;
+	height: 80px;
+	color: #ffffff;
+}
+
+.row:hover{
+	background-color: red;
+}
+.row a
+{
+    display:block;
+    text-decoration:none;
+}
+
+.row a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.row a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.row a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.content
+{
+	width: 700px;
+	align: center;
+	margin-left: 200px;
+	margin-right: auto;
+	text-align: justify;
+	padding-top: 10px;
+	
+	float: left;
+
+
+}
+.bets_right {
+	width: 200px;
+	
+	
+	float: left;
+	
+
+}
+.footer
+{
+	text-align: center;
+	background-color: #3f3f3f;
+	padding: 10px;
+	color: #ffffff;
+	clear: both;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+
+#menu-container{
+
+width: 1000px;
+margin: auto;
+
+}
+
+.option{
+	float: left;
+	min-width: 50px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid white;
+}
+#logo{
+	float: left;
+	min-width: 100px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid white;
+	letter-spacing: 2px;
+	
+}
+
+.right-menu{
+	float: right;
+	min-width: 50px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid white;
+}
+
+#log-in{
+	float: right;
+	min-width: 50px;
+	height: 35px;
+	padding-right: 5px;
+
+}
+
+.error{
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.zaklad {
+	min-height: 60px;
+	background-color: white;
+	font-size: 10px;
+	border: 1px solid black;
+	margin-bottom: 1px;
+	
+}
+.x{
+	font-size: 11px;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+#input{
+	width: 129px;
+}
+
+
+ /* wygląd głównego elementu - ol */
+      ol {
+        
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        	
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float: left;
+	min-width: 50px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid white;
+	list-style: none;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color: white;
+        color: black;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        
+        color: white;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        float: left;
+	min-width: 50px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid white;
+	background-color: black;
+	text-decoration: none;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        background-color:#DDD;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color: black;
+        background-color: grey;
+      }
+
+      ol > li > ul > li > a:link {
+        color: white;
+      }
+      ol > li > ul > li > a:visited {
+        color: white;
+      }
